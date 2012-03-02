@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A47B4C56148F255B00AB699D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47B4C55148F255B00AB699D /* Cocoa.framework */; };
+		A47B4C60148F255B00AB699D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A47B4C5E148F255B00AB699D /* InfoPlist.strings */; };
+		A47B4C62148F255B00AB699D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B4C61148F255B00AB699D /* main.m */; };
+		A47B4C66148F255B00AB699D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A47B4C64148F255B00AB699D /* Credits.rtf */; };
+		A47B4C69148F255B00AB699D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B4C68148F255B00AB699D /* AppDelegate.m */; };
+		A47B4C6C148F255B00AB699D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A47B4C6A148F255B00AB699D /* MainMenu.xib */; };
+		A4E0D2E31500C19E0058334D /* libSQSMetricFormatter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E0D2E01500C13A0058334D /* libSQSMetricFormatter.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4E0D2DF1500C13A0058334D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E0D2D71500C1390058334D /* SQSMetricFormatter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A4A54E271477B723007FEB4B;
+			remoteInfo = SQSMetricFormatter;
+		};
+		A4E0D2E11500C13A0058334D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E0D2D71500C1390058334D /* SQSMetricFormatter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A4A54E401477B7E0007FEB4B;
+			remoteInfo = SQSMetricFormatterLogicTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A47B4C51148F255B00AB699D /* FormatterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormatterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47B4C55148F255B00AB699D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A47B4C58148F255B00AB699D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A47B4C59148F255B00AB699D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A47B4C5A148F255B00AB699D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A47B4C5D148F255B00AB699D /* FormatterDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FormatterDemo-Info.plist"; sourceTree = "<group>"; };
+		A47B4C5F148F255B00AB699D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A47B4C61148F255B00AB699D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A47B4C63148F255B00AB699D /* FormatterDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FormatterDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A47B4C65148F255B00AB699D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A47B4C67148F255B00AB699D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A47B4C68148F255B00AB699D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A47B4C6B148F255B00AB699D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A4E0D2D71500C1390058334D /* SQSMetricFormatter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQSMetricFormatter.xcodeproj; path = ../SQSMetricFormatter.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47B4C4E148F255B00AB699D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E0D2E31500C19E0058334D /* libSQSMetricFormatter.a in Frameworks */,
+				A47B4C56148F255B00AB699D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A47B4C46148F255B00AB699D = {
+			isa = PBXGroup;
+			children = (
+				A4E0D2D71500C1390058334D /* SQSMetricFormatter.xcodeproj */,
+				A47B4C5B148F255B00AB699D /* FormatterDemo */,
+				A47B4C54148F255B00AB699D /* Frameworks */,
+				A47B4C52148F255B00AB699D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A47B4C52148F255B00AB699D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A47B4C51148F255B00AB699D /* FormatterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A47B4C54148F255B00AB699D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A47B4C55148F255B00AB699D /* Cocoa.framework */,
+				A47B4C57148F255B00AB699D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A47B4C57148F255B00AB699D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A47B4C58148F255B00AB699D /* AppKit.framework */,
+				A47B4C59148F255B00AB699D /* CoreData.framework */,
+				A47B4C5A148F255B00AB699D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A47B4C5B148F255B00AB699D /* FormatterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A47B4C67148F255B00AB699D /* AppDelegate.h */,
+				A47B4C68148F255B00AB699D /* AppDelegate.m */,
+				A47B4C6A148F255B00AB699D /* MainMenu.xib */,
+				A47B4C5C148F255B00AB699D /* Supporting Files */,
+			);
+			path = FormatterDemo;
+			sourceTree = "<group>";
+		};
+		A47B4C5C148F255B00AB699D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47B4C5D148F255B00AB699D /* FormatterDemo-Info.plist */,
+				A47B4C5E148F255B00AB699D /* InfoPlist.strings */,
+				A47B4C61148F255B00AB699D /* main.m */,
+				A47B4C63148F255B00AB699D /* FormatterDemo-Prefix.pch */,
+				A47B4C64148F255B00AB699D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4E0D2D81500C1390058334D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E0D2E01500C13A0058334D /* libSQSMetricFormatter.a */,
+				A4E0D2E21500C13A0058334D /* SQSMetricFormatterLogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A47B4C50148F255B00AB699D /* FormatterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47B4C6F148F255B00AB699D /* Build configuration list for PBXNativeTarget "FormatterDemo" */;
+			buildPhases = (
+				A47B4C4D148F255B00AB699D /* Sources */,
+				A47B4C4E148F255B00AB699D /* Frameworks */,
+				A47B4C4F148F255B00AB699D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormatterDemo;
+			productName = FormatterDemo;
+			productReference = A47B4C51148F255B00AB699D /* FormatterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A47B4C48148F255B00AB699D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A47B4C4B148F255B00AB699D /* Build configuration list for PBXProject "FormatterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A47B4C46148F255B00AB699D;
+			productRefGroup = A47B4C52148F255B00AB699D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A4E0D2D81500C1390058334D /* Products */;
+					ProjectRef = A4E0D2D71500C1390058334D /* SQSMetricFormatter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A47B4C50148F255B00AB699D /* FormatterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A4E0D2E01500C13A0058334D /* libSQSMetricFormatter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSQSMetricFormatter.a;
+			remoteRef = A4E0D2DF1500C13A0058334D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A4E0D2E21500C13A0058334D /* SQSMetricFormatterLogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SQSMetricFormatterLogicTests.octest;
+			remoteRef = A4E0D2E11500C13A0058334D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A47B4C4F148F255B00AB699D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47B4C60148F255B00AB699D /* InfoPlist.strings in Resources */,
+				A47B4C66148F255B00AB699D /* Credits.rtf in Resources */,
+				A47B4C6C148F255B00AB699D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47B4C4D148F255B00AB699D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47B4C62148F255B00AB699D /* main.m in Sources */,
+				A47B4C69148F255B00AB699D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A47B4C5E148F255B00AB699D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47B4C5F148F255B00AB699D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A47B4C64148F255B00AB699D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47B4C65148F255B00AB699D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A47B4C6A148F255B00AB699D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47B4C6B148F255B00AB699D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A47B4C6D148F255B00AB699D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A47B4C6E148F255B00AB699D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A47B4C70148F255B00AB699D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FormatterDemo/FormatterDemo-Prefix.pch";
+				INFOPLIST_FILE = "FormatterDemo/FormatterDemo-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$BUILT_PRODUCTS_DIR/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A47B4C71148F255B00AB699D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FormatterDemo/FormatterDemo-Prefix.pch";
+				INFOPLIST_FILE = "FormatterDemo/FormatterDemo-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$BUILT_PRODUCTS_DIR/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A47B4C4B148F255B00AB699D /* Build configuration list for PBXProject "FormatterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47B4C6D148F255B00AB699D /* Debug */,
+				A47B4C6E148F255B00AB699D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47B4C6F148F255B00AB699D /* Build configuration list for PBXNativeTarget "FormatterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47B4C70148F255B00AB699D /* Debug */,
+				A47B4C71148F255B00AB699D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A47B4C48148F255B00AB699D /* Project object */;
+}
