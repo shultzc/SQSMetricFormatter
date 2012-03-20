@@ -29,6 +29,18 @@ information.
 Usage
 -----
 
+While SQSMetricFormatter.h/.m (and its supporting NSDecimalNumber category) can be added
+directly to a project, it is more maintainable to add the whole SQSMetricFormatter project
+to a shared workspace.
+
+Standard project dependency considerations apply: since a category is contained herein, it
+is necessary to add -ObjC to the client target's linker flags.  If a shared workspace is
+used, setting the user header search path to ${BUILT\_PRODUCTS\_DIR} will let Xcode see
+public headers.
+
+To see how to configure the formatter, see the headers and the practical demonstration of
+class properties in the demo application, all implemented as User Defined Runtime
+Attributes in Interface Builder.
 
 Contributing
 ------------
