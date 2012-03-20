@@ -11,6 +11,8 @@ Requirements
 
 The SQSMetricFormatter code aims to be cross-platform (i.e. OS X and iOS), linking against
 Foundation.framework.  Only the "modern" (10.4+) NSNumberFormatter behavior is supported.
+While the code has no inherent dependency on a particular development environment, the
+Xcode project encapsulating the code expects Xcode 4 or newer.
 
 License
 -------
@@ -26,6 +28,7 @@ information.
 
 Usage
 -----
+
 
 Contributing
 ------------
