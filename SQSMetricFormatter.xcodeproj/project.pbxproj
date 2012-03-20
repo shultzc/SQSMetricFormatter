@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A468D29B15188B2D005DD3B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A468D29A15188B2D005DD3B1 /* Foundation.framework */; };
+		A468D2A615188B5A005DD3B1 /* SQSMetricFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A54E331477B723007FEB4B /* SQSMetricFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A468D2A715188B5A005DD3B1 /* SQSMetricFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A54E341477B723007FEB4B /* SQSMetricFormatter.m */; };
+		A468D2A915188B5A005DD3B1 /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A54E56147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.m */; };
+		A468D2AA15188B6D005DD3B1 /* SQSMetricFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A54E331477B723007FEB4B /* SQSMetricFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A468D2AB15188B77005DD3B1 /* SQSMetricFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A54E341477B723007FEB4B /* SQSMetricFormatter.m */; };
 		A4A54E2B1477B723007FEB4B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A54E2A1477B723007FEB4B /* Cocoa.framework */; };
 		A4A54E351477B723007FEB4B /* SQSMetricFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A54E341477B723007FEB4B /* SQSMetricFormatter.m */; };
 		A4A54E421477B7E0007FEB4B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A54E411477B7E0007FEB4B /* SenTestingKit.framework */; };
@@ -14,12 +20,14 @@
 		A4A54E491477B7E0007FEB4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4A54E471477B7E0007FEB4B /* InfoPlist.strings */; };
 		A4A54E4C1477B7E0007FEB4B /* SQSMetricFormatterLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A54E4B1477B7E0007FEB4B /* SQSMetricFormatterLogicTests.m */; };
 		A4A54E541478D5BE007FEB4B /* libSQSMetricFormatter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A54E271477B723007FEB4B /* libSQSMetricFormatter.a */; };
-		A4A54E57147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A54E55147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.h */; };
 		A4A54E58147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A54E56147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.m */; };
 		A4A54E59147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A54E56147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A468D29915188B2D005DD3B1 /* libSQSMetricFormatter_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSQSMetricFormatter_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A468D29A15188B2D005DD3B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A468D29E15188B2D005DD3B1 /* SQSMetricFormatter_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQSMetricFormatter_iOS-Prefix.pch"; sourceTree = "<group>"; };
 		A4A54E271477B723007FEB4B /* libSQSMetricFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSQSMetricFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A54E2A1477B723007FEB4B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A4A54E2D1477B723007FEB4B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -40,6 +48,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A468D29615188B2D005DD3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A468D29B15188B2D005DD3B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4A54E241477B723007FEB4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,12 +77,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A468D29C15188B2D005DD3B1 /* SQSMetricFormatter_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A468D29D15188B2D005DD3B1 /* Supporting Files */,
+			);
+			path = SQSMetricFormatter_iOS;
+			sourceTree = "<group>";
+		};
+		A468D29D15188B2D005DD3B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A468D29E15188B2D005DD3B1 /* SQSMetricFormatter_iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		A4A54E1C1477B723007FEB4B = {
 			isa = PBXGroup;
 			children = (
 				A4A54E301477B723007FEB4B /* SQSMetricFormatter */,
 				A4A54E311477B723007FEB4B /* Supporting Files */,
 				A4A54E441477B7E0007FEB4B /* SQSMetricFormatterLogicTests */,
+				A468D29C15188B2D005DD3B1 /* SQSMetricFormatter_iOS */,
 				A4A54E291477B723007FEB4B /* Frameworks */,
 				A4A54E281477B723007FEB4B /* Products */,
 			);
@@ -77,6 +110,7 @@
 			children = (
 				A4A54E271477B723007FEB4B /* libSQSMetricFormatter.a */,
 				A4A54E401477B7E0007FEB4B /* SQSMetricFormatterLogicTests.octest */,
+				A468D29915188B2D005DD3B1 /* libSQSMetricFormatter_iOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +120,7 @@
 			children = (
 				A4A54E2A1477B723007FEB4B /* Cocoa.framework */,
 				A4A54E411477B7E0007FEB4B /* SenTestingKit.framework */,
+				A468D29A15188B2D005DD3B1 /* Foundation.framework */,
 				A4A54E2C1477B723007FEB4B /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -144,17 +179,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		A468D29715188B2D005DD3B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A468D2A615188B5A005DD3B1 /* SQSMetricFormatter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4A54E251477B723007FEB4B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4A54E57147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.h in Headers */,
+				A468D2AA15188B6D005DD3B1 /* SQSMetricFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		A468D29815188B2D005DD3B1 /* SQSMetricFormatter_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A468D2A415188B2D005DD3B1 /* Build configuration list for PBXNativeTarget "SQSMetricFormatter_iOS" */;
+			buildPhases = (
+				A468D29515188B2D005DD3B1 /* Sources */,
+				A468D29615188B2D005DD3B1 /* Frameworks */,
+				A468D29715188B2D005DD3B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQSMetricFormatter_iOS;
+			productName = SQSMetricFormatter_iOS;
+			productReference = A468D29915188B2D005DD3B1 /* libSQSMetricFormatter_iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		A4A54E261477B723007FEB4B /* SQSMetricFormatter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4A54E381477B723007FEB4B /* Build configuration list for PBXNativeTarget "SQSMetricFormatter" */;
@@ -213,6 +273,7 @@
 			targets = (
 				A4A54E261477B723007FEB4B /* SQSMetricFormatter */,
 				A4A54E3F1477B7E0007FEB4B /* SQSMetricFormatterLogicTests */,
+				A468D29815188B2D005DD3B1 /* SQSMetricFormatter_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +306,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A468D29515188B2D005DD3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A468D2A715188B5A005DD3B1 /* SQSMetricFormatter.m in Sources */,
+				A468D2A915188B5A005DD3B1 /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4A54E231477B723007FEB4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,6 +330,7 @@
 			files = (
 				A4A54E4C1477B7E0007FEB4B /* SQSMetricFormatterLogicTests.m in Sources */,
 				A4A54E59147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.m in Sources */,
+				A468D2AB15188B77005DD3B1 /* SQSMetricFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +348,39 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A468D2A215188B2D005DD3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/SQSMetricFormatter_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQSMetricFormatter_iOS/SQSMetricFormatter_iOS-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A468D2A315188B2D005DD3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/SQSMetricFormatter_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQSMetricFormatter_iOS/SQSMetricFormatter_iOS-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		A4A54E361477B723007FEB4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -373,6 +477,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A468D2A415188B2D005DD3B1 /* Build configuration list for PBXNativeTarget "SQSMetricFormatter_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A468D2A215188B2D005DD3B1 /* Debug */,
+				A468D2A315188B2D005DD3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A4A54E211477B723007FEB4B /* Build configuration list for PBXProject "SQSMetricFormatter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

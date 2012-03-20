@@ -275,7 +275,7 @@
         
         // decimalObj is now guaranteed to be > 0
         NSDecimalNumber *normalizedDecimal;
-        if ([decimalObj isLessThan:[NSDecimalNumber one]]) {
+        if ([decimalObj compare:[NSDecimalNumber one]] == NSOrderedAscending) {
             // 1 / decimalObj
             normalizedDecimal = [[NSDecimalNumber one] decimalNumberByDividingBy:decimalObj];
         }

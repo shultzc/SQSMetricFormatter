@@ -55,7 +55,7 @@
 
 - (BOOL)isNegative
 {
-    return [self isLessThan:[NSDecimalNumber zero]];
+    return [self compare:[NSDecimalNumber zero]] == NSOrderedAscending;
 }
 
 @end
