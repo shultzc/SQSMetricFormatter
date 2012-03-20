@@ -13,6 +13,8 @@
 		A468D2A915188B5A005DD3B1 /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A54E56147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.m */; };
 		A468D2AA15188B6D005DD3B1 /* SQSMetricFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A54E331477B723007FEB4B /* SQSMetricFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A468D2AB15188B77005DD3B1 /* SQSMetricFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A54E341477B723007FEB4B /* SQSMetricFormatter.m */; };
+		A468D2B715188F26005DD3B1 /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A54E55147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A468D2B815188F28005DD3B1 /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A54E55147E43C5007FEB4B /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4A54E2B1477B723007FEB4B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A54E2A1477B723007FEB4B /* Cocoa.framework */; };
 		A4A54E351477B723007FEB4B /* SQSMetricFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A54E341477B723007FEB4B /* SQSMetricFormatter.m */; };
 		A4A54E421477B7E0007FEB4B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A54E411477B7E0007FEB4B /* SenTestingKit.framework */; };
@@ -184,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A468D2A615188B5A005DD3B1 /* SQSMetricFormatter.h in Headers */,
+				A468D2B815188F28005DD3B1 /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A468D2AA15188B6D005DD3B1 /* SQSMetricFormatter.h in Headers */,
+				A468D2B715188F26005DD3B1 /* NSDecimalNumber+NSDecimalNumber_SQSDecimalNumber.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
